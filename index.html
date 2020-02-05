@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css"n type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  </head>
+  <body>
+    <div class="container" id="homepage">
+      <div class="content-container">
+        <h1 class="hometitle">{{title}}</h1>
+        <p class="textcontent">{{content}}</p>
+      </div>
+      <div class="video-container">
+        <video  autoplay loop muted id="home-bg-video">
+            <source v-bind:src="'videos/' + backgroundVideo" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <div class="container" id="information-section">
+      <div class="main-title">
+          <h1>{{titleSection}}</h1>
+      </div>
+      <div class="info-content">
+        <div>
+          <img v-bind:src="'images/'+part1.image">
+        </div>
+        <div>
+          <h2>{{part1.title}}</h2>
+          <p>{{part1.content}}</p>
+        </div>
+      </div>
+      <div class="info-content" >
+        <div>
+          <h2>{{part2.title}}</h2>
+          <p>{{part2.content}}</p>
+        </div>
+        <div>
+          <img v-bind:src="'images/'+part2.image">
+        </div>
+      </div>
+      <div class="info-content">
+        <div>
+          <img v-bind:src="'images/'+part3.image">
+        </div>
+        <div>
+          <h2>{{part3.title}}</h2>
+          <p>{{part3.content}}</p>
+        </div>
+      </div>
+    </div>
+    <div id="compare-university-section" class="compare-section">
+      <div class="compare-container">
+        <div class="compare-section-title">
+          <h1>{{ mainTitle }}</h1>
+        </div>
+      <div class="compare-table-container">
+        <table class="compare-table">
+          <tr>
+            <th>
+
+            </th>
+            <th>
+              KIT
+            </th>
+            <th>
+              USA
+            </th>
+            <th>
+              Austarlia
+            </th>
+          </tr>
+          <tr>
+            <td>
+              shcool fee
+            </td>
+          </tr>
+        </table>
+      </div>
+      </div>
+    </div>
+    <div id="admission-section">
+      <div class="admission-title">
+          <h1>Admission Process</h1>
+      </div>
+      <div class="admission-process-container">
+
+      </div>
+    </div>
+
+
+
+    <footer id="footer-section">
+      <div class="footer-logo">
+        <img v-bind:src="'images/'+logo" alt="">
+        <div>
+          <p>{{description_under_logo}}</p>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script src="data.js"></script>
+  </body>
+</html>

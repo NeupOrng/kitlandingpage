@@ -1,0 +1,61 @@
+Ms. China the university student from japan she stay here for 2 week
+
+people have short attention it's about 8 sec so we need to make it
+
+add the partnership
+style need to me the attractive one for the parent
+
+color matter
+
+ads : always call for action
+
+try to collect the photo video Logan or something that is catchy
+
+registration form {
+  specify the high school name
+  remove date of birth
+  make 3 choice of sex
+  for cyber security: put the disclaimer for the data provider (option to contact us by give the email address and phone number and location)
+
+
+}
+
+
+the problem need to fix
+  - home: title: change to 'school for the future' or something make them curious
+          content: 'transform or innovate the future'
+          photo: try to find other photo that make them say wow on the first time (360 degree photo)
+  - program:
+    main title: shorter one
+
+    ask the SE from the course description
+    need photo
+    event
+    VC
+    internship program
+    technology and photo( redesign the lab like the real lab for technology that it look like cutting egg technology)
+
+  - comparation:
+    the title: fix the title
+
+    info graphic the data or other style that make it easy to understand or (the uqiuness table)
+    need more university to compare
+    come up with the feature that kit have and they don't have (make sure that the data is up to date)
+
+  - decide your future path
+    title: come up with the catchy title and they catchy description
+    add the animetion
+
+  - why choose kit?
+    design the graphic of that data
+
+  - admission:
+    add schedule for the online exam (book the online exam)
+    duration of the hold process until they can join kit officailly in around 4 weeks
+    make the visitor interact with us
+    have to give them what they really want to know
+  - alumni or student voice
+    try to use more photo (4 -5 photo) and switching all the time
+  - faqs
+    click to see the drop down the answer
+    make it more attractive by the animetion
