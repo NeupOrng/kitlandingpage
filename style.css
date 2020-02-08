@@ -1,7 +1,49 @@
 *{
   padding: 0px;
   margin: 0px;
-  color:;
+  scroll-behavior: smooth;
+  transition-duration: 500ms;
+}
+nav{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  background: rgba(255, 255, 255, 1);
+  z-index: 2;
+}
+nav div img{
+  max-width: 100px;
+}
+nav div{
+  margin-right: 10%;
+  padding: 10px 30px;
+}
+nav ul{
+  list-style: none;
+  padding: 5px 10px;
+}
+nav ul li{
+  float: left;
+  margin: 10px 1px;
+
+}
+nav ul li a{
+  color: black;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  width: 100px;
+  text-align: center;
+  height: 30px;
+  text-decoration: none;
+  transition-duration: 1s;
+  border-radius: 5px;
+  background: lightgray;
+}
+nav ul li a:hover{
+  background: black;
+  color: white;
 }
 .container{
   position: relative;
@@ -34,13 +76,14 @@
 }
 .video-container video{
   width: 100%;
+
   position: relative;
 }
-#information-section{
+#program-section{
   background: white;
   width: 100%;
 }
-#information-section h1{
+#program-section h1{
   width: 100%;
   text-align: center;
   padding: 30px 0;
@@ -111,4 +154,12 @@ footer{
 }
 .footer-logo{
   padding: 40px 80px;
+}
+#testimony{
+  width: 100%;
+  padding: 10%;
+}
+#faqs-section{
+  width: 100%;
+  padding: 10%;
 }

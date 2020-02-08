@@ -1,4 +1,11 @@
 
+const nav = new Vue({
+  el: '#navigation',
+  data:{
+    logo: "logo.png",
+  }
+})
+
 const home = new Vue({
   el: '#homepage',
   data:{
@@ -8,8 +15,8 @@ const home = new Vue({
   }
 })
 
-const information = new Vue({
-  el: '#information-section',
+const program = new Vue({
+  el: '#program-section',
   data:{
     titleSection:'information',
     part1: {

@@ -8,6 +8,15 @@
   </head>
   <body>
     <div class="container" id="homepage">
+      <nav id="navigation">
+        <div>
+          <img v-bind:src="'images/'+logo" alt="KIT Logo">
+        </div>
+        <ul>
+          <li><a href="#homepage">Home</a></li>
+          <li><a href="#program-section">Program</a></li>
+        </ul>
+      </nav>
       <div class="content-container">
         <h1 class="hometitle">{{title}}</h1>
         <p class="textcontent">{{content}}</p>
@@ -18,7 +27,7 @@
         </video>
       </div>
     </div>
-    <div class="container" id="information-section">
+    <div class="container" id="program-section">
       <div class="main-title">
           <h1>{{titleSection}}</h1>
       </div>
@@ -88,8 +97,12 @@
 
       </div>
     </div>
+    <div id="testimony-section">
 
+    </div>
+    <div id="faqs-section">
 
+    </div>
 
     <footer id="footer-section">
       <div class="footer-logo">
