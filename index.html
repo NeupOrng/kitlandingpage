@@ -4,7 +4,6 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css"n type="text/css">
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
   </head>
   <body>
     <div class="container" id="homepage">
@@ -13,8 +12,9 @@
           <img v-bind:src="'images/'+logo" alt="KIT Logo">
         </div>
         <ul>
-          <li><a href="#homepage">Home</a></li>
+          <li><a id="testing" href="#homepage">Home</a></li>
           <li><a href="#program-section">Program</a></li>
+          <li><a href="#admission-section">Admission</a></li>
         </ul>
       </nav>
       <div class="content-container">
@@ -114,7 +114,7 @@
     </footer>
 
 
-
+    <script src="animation.js"></script>
     <script src="data.js"></script>
   </body>
 </html>
