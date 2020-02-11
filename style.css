@@ -1,10 +1,10 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
   scroll-behavior: smooth;
   transition-duration: 500ms;
 }
-nav{
+nav {
   width: 100%;
   position: fixed;
   top: 0;
@@ -12,23 +12,22 @@ nav{
   background: rgba(255, 255, 255, 0);
   z-index: 2;
 }
-nav div img{
+nav div img {
   max-width: 100px;
 }
-nav div{
+nav div {
   margin-right: 10%;
   padding: 10px 30px;
 }
-nav ul{
+nav ul {
   list-style: none;
   padding: 5px 10px;
 }
-nav ul li{
+nav ul li {
   float: left;
   margin: 10px 1px;
-
 }
-nav ul li a{
+nav ul li a {
   color: black;
   display: block;
   text-align: center;
@@ -41,16 +40,16 @@ nav ul li a{
   border-radius: 5px;
   background: lightgray;
 }
-nav ul li a:hover{
+nav ul li a:hover {
   background: black;
   color: white;
 }
-.container{
+.container {
   position: relative;
   width: 100%;
   display: block;
 }
-.content-container{
+.content-container {
   top: 30%;
   left: 10%;
   padding: 20px 40px;
@@ -65,64 +64,61 @@ nav ul li a:hover{
   font-family: "Cookie";
   box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.4);
 }
-.video-container{
+.video-container {
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 700px;
   overflow: hidden;
-
 }
-.video-container video{
+.video-container video {
   width: 100%;
 
   position: relative;
 }
-#program-section{
+#program-section {
   background: white;
   width: 100%;
 }
-#program-section h1{
+#program-section h1 {
   width: 100%;
   text-align: center;
   padding: 30px 0;
   font-size: 40px;
 }
-.info-content{
+.info-content {
   display: flex;
   padding: 10px 15%;
-
 }
-.info-content div{
+.info-content div {
   margin: 10px 70px;
 }
-.info-content div h2{
+.info-content div h2 {
   font-size: 25px;
   margin: 20px 0;
   color: #413d3c;
-
 }
-.info-content div p{
+.info-content div p {
   padding: 0px 25px;
 }
-.info-content div img{
-  width:200px;
+.info-content div img {
+  width: 200px;
 }
-#compare-university-section{
+#compare-university-section {
   position: relative;
   padding: 3% 10%;
 }
-.compare-section-title{
+.compare-section-title {
   width: 100%;
   text-align: center;
   padding: 2% 2%;
 }
-.compare-table-container{
+.compare-table-container {
   width: 100%;
   background: lightgreen;
 }
-.compare-table tr td{
+.compare-table tr td {
   padding: 10px 20px;
 }
 .compare-table tr th {
@@ -130,36 +126,40 @@ nav ul li a:hover{
   font-size: 30px;
 }
 
-#admission-section{
+#admission-section {
   position: relative;
   background: lightgray;
   padding: 3% 10%;
 }
-.admission-title{
+.admission-title {
   width: 100%;
   text-align: center;
   padding: 2% 2%;
 }
-.admission-process-container{
+.admission-process-container {
   background: black;
   width: 100%;
   height: 600px;
 }
-footer{
+footer {
   background: red;
   width: 100%;
 }
-.footer-logo img{
+.footer-logo img {
   max-width: 200px;
 }
-.footer-logo{
+.footer-logo {
   padding: 40px 80px;
 }
-#testimony{
-  width: 100%;
+#testimony {
+  width: 80%;
   padding: 10%;
 }
-#faqs-section{
-  width: 100%;
+#faqs-section {
+  width: 80%;
   padding: 10%;
+}
+
+#faqs-section h1 {
+  text-align: center;
 }
