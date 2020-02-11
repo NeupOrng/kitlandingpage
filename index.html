@@ -9,7 +9,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
   </head>
   <body>
     <div class="container" id="homepage">
@@ -18,10 +17,10 @@
           <img v-bind:src="'images/'+logo" alt="KIT Logo">
         </div>
         <ul>
-          <li><a href="#homepage">Home</a></li>
+          <li><a id="testing" href="#homepage">Home</a></li>
           <li><a href="#program-section">Program</a></li>
           <li><a href="#">Majors</a></li>
-          <li><a href="#">Admission</a></li>
+          <li><a href="#admission-section">Admission</a></li>
           <li><a href="#">FAQs</a></li>
         </ul>
       </nav>
@@ -135,7 +134,7 @@
     </footer>
 
 
-
+    <script src="animation.js"></script>
     <script src="data.js"></script>
   </body>
 </html>
