@@ -44,6 +44,7 @@ nav ul li a:hover {
   background: black;
   color: white;
 }
+
 .container {
   position: relative;
   width: 100%;
@@ -156,10 +157,20 @@ footer {
   padding: 10%;
 }
 #faqs-section {
-  width: 80%;
-  padding: 10%;
+  /* width: 80%; */
+  padding: 5%;
 }
 
 #faqs-section h1 {
   text-align: center;
 }
+
+#faqs-section a:link,
+a:hover {
+  text-decoration: none;
+}
+
+/* #faqs-section a:active {
+  background-color: aqua;
+  border-radius: 20%;
+} */

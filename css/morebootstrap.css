@@ -1,0 +1,94 @@
+/* a {
+  color: #282425 !important;
+}
+ul.nav.nav-tabs > li {
+  display: inline-block;
+  line-height: 50px;
+  height: 100%;
+  text-transform: uppercase;
+}
+ul.nav.nav-tabs > li a {
+  display: block;
+  padding: 15px;
+  color: #282425 !important;
+}
+ul.nav.nav-tabs > li a:hover,
+ul.nav.nav-tabs > li:hover {
+  background: #fb282f;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+ul.nav.nav-tabs > li a.active {
+  background: #282425;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.card-header {
+  background-color: rgb(245, 245, 245, 0.3) !important;
+  border-radius: 0 !important;
+}
+.card {
+  border-radius: 0 !important;
+}
+
+.card > .card-header a::before {
+  font-family: fontawesome;
+  content: "\f067 ";
+  color: #282425;
+  float: right;
+  margin-right: 15px;
+  font-weight: 400;
+  position: absolute;
+  right: 0;
+}
+*/
+/* Style the element that is used to open and close the accordion class */
+p.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin-bottom: 10px;
+}
+
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+p.accordion.active,
+p.accordion:hover {
+  background-color: #ddd;
+}
+
+/* Unicode character for "plus" sign (+) */
+p.accordion:after {
+  content: "\2795";
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.accordion.active:after {
+  content: "\2796";
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+  opacity: 0;
+  margin-bottom: 10px;
+}
+
+div.panel.show {
+  opacity: 1;
+  max-height: 500px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
